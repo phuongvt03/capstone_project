@@ -22,8 +22,8 @@ const beVietnam = Be_Vietnam_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "LamThuePLC",
-  description: "Ứng dụng quản lý",
+  title: "Websever",
+  description: "Ứng dụng quản lý chất lượng nước",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 };
 
