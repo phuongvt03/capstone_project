@@ -295,6 +295,7 @@ export default function MonitoringAlert() {
                         <td className="py-3 px-4 font-medium text-blue-600">
                           {item.stt}
                         </td>
+                        <td className="py-3 px-4 text-gray-700">{item.Ngay}</td>
                         <td className="py-3 px-4 text-gray-700">
                           {item.Thoi_gian}
                         </td>
@@ -318,7 +319,6 @@ export default function MonitoringAlert() {
                         <td className="py-3 px-4 text-gray-700">
                           {item.Do_duc}
                         </td>
-                        <td className="py-3 px-4 text-gray-700">{item.Ngay}</td>
                         <td className="py-3 px-4 text-gray-700">
                           {item.Toc_do}
                         </td>
