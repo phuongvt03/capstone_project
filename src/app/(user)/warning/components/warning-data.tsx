@@ -80,13 +80,13 @@ export default function MonitoringAlert() {
 
     const exportData = filteredData.map((item) => ({
       STT: item.stt,
-      "Độ ẩm (%)": item.Do_am,
-      "Độ đục (NTU)": item.Do_duc,
       Ngày: item.Ngay,
-      "Nhiệt độ (°C)": item.Nhiet_do,
       "Thời gian": item.Thoi_gian,
-      "Tốc độ (m/s)": item.Toc_do,
+      "Nhiệt độ (°C)": item.Nhiet_do,
+      "Độ ẩm (%)": item.Do_am,
       pH: item.pH,
+      "Độ đục (NTU)": item.Do_duc,
+      "Tốc độ (m/s)": item.Toc_do,
     }));
 
     const ws = XLSX.utils.json_to_sheet(exportData);
