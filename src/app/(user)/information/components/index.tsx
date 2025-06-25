@@ -229,8 +229,8 @@ export default function InformationComponent() {
             >
               <Cpu className="w-8 h-8" />
               <div className="text-right">
-                <div className="text-xl font-bold">IT 5200</div>
-                <div className="text-blue-200 text-sm">Infit Technologies</div>
+                <div className="text-xl font-bold">IT LePhuong</div>
+                <div className="text-blue-200 text-sm">New Technologies</div>
               </div>
             </motion.div>
           </div>
