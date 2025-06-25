@@ -296,15 +296,8 @@ export default function MonitoringAlert() {
                           {item.stt}
                         </td>
                         <td className="py-3 px-4 text-gray-700">
-                          <div className="flex items-center gap-2">
-                            <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                            {item.Do_am}%
-                          </div>
+                          {item.Thoi_gian}
                         </td>
-                        <td className="py-3 px-4 text-gray-700">
-                          {item.Do_duc}
-                        </td>
-                        <td className="py-3 px-4 text-gray-700">{item.Ngay}</td>
                         <td className="py-3 px-4 text-gray-700">
                           <div className="flex items-center gap-2">
                             <div className="w-2 h-2 bg-red-400 rounded-full"></div>
@@ -312,15 +305,22 @@ export default function MonitoringAlert() {
                           </div>
                         </td>
                         <td className="py-3 px-4 text-gray-700">
-                          {item.Thoi_gian}
-                        </td>
-                        <td className="py-3 px-4 text-gray-700">
-                          {item.Toc_do}
+                          <div className="flex items-center gap-2">
+                            <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                            {item.Do_am}%
+                          </div>
                         </td>
                         <td className="py-3 px-4">
                           <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
                             {item.pH}
                           </span>
+                        </td>
+                        <td className="py-3 px-4 text-gray-700">
+                          {item.Do_duc}
+                        </td>
+                        <td className="py-3 px-4 text-gray-700">{item.Ngay}</td>
+                        <td className="py-3 px-4 text-gray-700">
+                          {item.Toc_do}
                         </td>
                       </tr>
                     ))}
